@@ -3,34 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rock On</title>
+  <title>David Green | Welcome</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f9;
+      color: #232323;
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 18px;
+      min-height: 100vh;
+    }
     body {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
-      margin: 0;
-      background: #111;
+      min-height: 100vh;
+      padding: 0 1.5rem;
+    }
+    .container {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px 0 rgba(0,0,0,0.07);
+      padding: 2.5rem 2rem 2rem 2rem;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
     }
     .emoji {
-      font-size: 8rem;
-      filter: drop-shadow(0 0 10px #fff3);
+      font-size: 4rem;
+      margin-bottom: 1.2rem;
+      filter: none;
     }
-    .pixel-text {
-      font-family: 'Press Start 2P', 'VT323', 'Courier New', Courier, monospace;
+    h1 {
       font-size: 2rem;
-      color: #fff;
-      margin-top: 1.5rem;
-      letter-spacing: 2px;
-      text-shadow: 2px 2px 0 #000, 4px 4px 0 #333;
+      font-weight: 700;
+      margin: 0 0 0.7rem 0;
+      letter-spacing: -1px;
     }
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+    .intro {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #444;
+    }
+    .contact {
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+    .contact a {
+      color: #2d72d9;
+      text-decoration: none;
+      font-weight: 700;
+      transition: color 0.2s;
+    }
+    .contact a:hover {
+      color: #174ea6;
+    }
+    .links {
+      margin-top: 1.2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+    }
+    .links a {
+      color: #888;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: color 0.2s;
+    }
+    .links a:hover {
+      color: #2d72d9;
+    }
   </style>
 </head>
 <body>
-  <div class="emoji">🤘</div>
-  <div class="pixel-text">rock on...</div>
+  <div class="container">
+    <div class="emoji" aria-label="Sign of the horns">🤘</div>
+    <h1>Hi, I'm David Green</h1>
+    <div class="intro">
+      I specialize in AI & leading enterprise-grade innovation programs for rapidly-growing organizations.<br><br>
+    </div>
+    <div class="contact">
+      Want to get in touch? <a href="mailto:david@buildingquality.co">Email me</a> or connect below.
+    </div>
+    <div class="links">
+      <a href="https://www.buildingquality.co/about" target="_blank" rel="noopener">About</a>
+      <a href="https://www.linkedin.com/in/davidmartingreen/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/thedavidgreen" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
 </body>
 </html>
