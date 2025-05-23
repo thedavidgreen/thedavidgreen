@@ -41,7 +41,7 @@ _Last updated: May 2025_
 
 You can find more information about me at the following websites:
 
-- [Building Quality](https://www.buildingquality.com)
+- [Building Quality](https://www.buildingquality.co)
 - [LinkedIn](https://www.linkedin.com/in/davidmartingreen/)
 - [GitHub](https://github.com/thedavidgreen)
 
